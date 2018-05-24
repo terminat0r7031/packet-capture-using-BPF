@@ -1,0 +1,2286 @@
+Frame number: 1
+Frame size: 74
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 60
+		|- Identification: 51547
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9B96
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 0
+		|- Header length: 40 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 0
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 1
+			+ FIN: 0
+		|- Window size: 29200
+		|- TCP checksum: 0xA6C7
+ 		|- Urgent pointer: 0
+
+Payload
+
+*****************************************************************************
+Frame number: 2
+Frame size: 66
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 52
+		|- Identification: 27399
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0D2
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 32 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 1
+			+ FIN: 0
+		|- Window size: 65535
+		|- TCP checksum: 0x0636
+ 		|- Urgent pointer: 0
+
+Payload
+
+*****************************************************************************
+Frame number: 3
+Frame size: 54
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 40
+		|- Identification: 51548
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9BA9
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 229
+		|- TCP checksum: 0x4610
+ 		|- Urgent pointer: 0
+
+Payload
+
+*****************************************************************************
+Frame number: 4
+Frame size: 270
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 256
+		|- Identification: 51549
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9AD0
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 229
+		|- TCP checksum: 0x2153
+ 		|- Urgent pointer: 0
+
+Payload
+       16 03 01 00 D3 01 00 00 CF 03 03 5B DE 2F 87 D5          ...........[./..
+       C7 FA 35 3F 61 28 3D A0 22 2A 9E 62 78 86 A7 3D          ..5?a(=."*.bx..=
+       2C 7E E3 7E 38 2E A9 6C 6C E4 3B 00 00 1C 5A 5A          ,~.~8..ll.;...ZZ
+       C0 2B C0 2F C0 2C C0 30 CC A9 CC A8 C0 13 C0 14          .+./.,.0........
+       00 9C 00 9D 00 2F 00 35 00 0A 01 00 00 8A 2A 2A          ...../.5......**
+       00 00 FF 01 00 01 00 00 00 00 21 00 1F 00 00 1C          ..........!.....
+       6D 61 72 6B 65 74 70 6C 61 63 65 2E 76 69 73 75          marketplace.visu
+       61 6C 73 74 75 64 69 6F 2E 63 6F 6D 00 17 00 00          alstudio.com....
+       00 23 00 00 00 0D 00 14 00 12 04 03 08 04 04 01          .#..............
+       05 03 08 05 05 01 08 06 06 01 02 01 00 05 00 05          ................
+       01 00 00 00 00 00 12 00 00 00 10 00 0E 00 0C 02          ................
+       68 32 08 68 74 74 70 2F 31 2E 31 75 50 00 00 00          h2.http/1.1uP...
+       0B 00 02 01 00 00 0A 00 0A 00 08 DA DA 00 1D 00          ................
+       17 00 18 8A 8A 00 01 00                                  ........
+
+*****************************************************************************
+Frame number: 5
+Frame size: 60
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 40
+		|- Identification: 27402
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0DB
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1025
+		|- TCP checksum: 0x421C
+ 		|- Urgent pointer: 0
+
+Payload
+       00 00 00 00 00 00                                        ......
+
+*****************************************************************************
+Frame number: 6
+Frame size: 1506
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 1492
+		|- Identification: 27403
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xBB2E
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1025
+		|- TCP checksum: 0xD739
+ 		|- Urgent pointer: 0
+
+Payload
+       16 03 03 1A B5 02 00 00 5E 03 03 5A D0 0F 50 3D          ........^..Z..P=
+       58 68 79 33 9A F5 E5 5B 7C A2 8C 2B B0 88 ED F0          Xhy3...[|..+....
+       15 ED E2 0C 24 01 35 33 8F 1B 3B 20 EF 45 00 00          ....$.53..; .E..
+       49 DC 06 5D 92 7E 47 54 36 11 F7 73 90 FC AA 95          I..].~GT6..s....
+       60 92 28 53 06 C1 D4 17 8D A8 AF 87 C0 2F 00 00          `.(S........./..
+       16 00 05 00 00 00 10 00 05 00 03 02 68 32 00 17          ............h2..
+       00 00 FF 01 00 01 00 0B 00 11 F0 00 11 ED 00 0C          ................
+       2F 30 82 0C 2B 30 82 0A 13 A0 03 02 01 02 02 13          /0..+0..........
+       20 00 01 4F 4B 06 D6 D3 CD CA 6A C6 ED 00 00 00           ..OK.....j.....
+       01 4F 4B 30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B          .OK0...*.H......
+       05 00 30 81 8B 31 0B 30 09 06 03 55 04 06 13 02          ..0..1.0...U....
+       55 53 31 13 30 11 06 03 55 04 08 13 0A 57 61 73          US1.0...U....Was
+       68 69 6E 67 74 6F 6E 31 10 30 0E 06 03 55 04 07          hington1.0...U..
+       13 07 52 65 64 6D 6F 6E 64 31 1E 30 1C 06 03 55          ..Redmond1.0...U
+       04 0A 13 15 4D 69 63 72 6F 73 6F 66 74 20 43 6F          ....Microsoft Co
+       72 70 6F 72 61 74 69 6F 6E 31 15 30 13 06 03 55          rporation1.0...U
+       04 0B 13 0C 4D 69 63 72 6F 73 6F 66 74 20 49 54          ....Microsoft IT
+       31 1E 30 1C 06 03 55 04 03 13 15 4D 69 63 72 6F          1.0...U....Micro
+       73 6F 66 74 20 49 54 20 54 4C 53 20 43 41 20 32          soft IT TLS CA 2
+       30 1E 17 0D 31 37 31 31 31 37 31 35 33 33 30 37          0...171117153307
+       5A 17 0D 31 39 31 31 31 37 31 35 33 33 30 37 5A          Z..191117153307Z
+       30 1B 31 19 30 17 06 03 55 04 03 13 10 76 69 73          0.1.0...U....vis
+       75 61 6C 73 74 75 64 69 6F 2E 63 6F 6D 30 82 01          ualstudio.com0..
+       22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01 05 00          "0...*.H........
+       03 82 01 0F 00 30 82 01 0A 02 82 01 01 00 C4 D2          .....0..........
+       97 17 A5 B3 4F 00 4B 67 B2 0C 67 70 03 29 E7 D0          ....O.Kg..gp.)..
+       BE F3 52 F7 51 F0 10 F2 86 03 D6 43 AF 62 36 8E          ..R.Q......C.b6.
+       03 B7 EE D3 37 C9 CB B4 43 D8 38 13 CE BD 5F 9A          ....7...C.8..._.
+       C6 B8 C4 EA 05 C2 58 33 10 A9 E8 BA E3 5A 4A A3          ......X3.....ZJ.
+       01 4B 84 40 CC C5 00 79 3B 8A 4C 4F 30 A5 3C 35          .K.@...y;.LO0.<5
+       8B 41 76 FF BE 50 11 90 DA 69 E9 C0 87 B1 F1 36          .Av..P...i.....6
+       B5 F7 A1 07 FA 26 48 DE 14 A8 12 0F 71 A0 28 C2          .....&H.....q.(.
+       E4 4C 9D C6 D4 C7 62 66 9A 57 A2 76 1D 86 D1 CD          .L....bf.W.v....
+       BE 12 38 87 F2 09 F8 3C 58 D8 B4 FE E4 12 FE F6          ..8....<X.......
+       3E 4C 22 51 4A 65 E9 DE 84 3F FB 4D D5 08 76 74          >L"QJe...?.M..vt
+       77 DF 09 3F 89 4D AD 16 01 19 37 2B 5B F8 DC 5D          w..?.M....7+[..]
+       C9 08 C5 C6 92 DD 6D F6 95 88 F9 93 E6 06 1F 4F          ......m........O
+       AE D5 81 CB AC BF 0F DC 89 2D AB AD 6F 91 8C 34          .........-..o..4
+       79 1D 8D 71 0D 0E 7A 7C 4C 84 9F 59 E0 1B 01 1A          y..q..z|L..Y....
+       BB ED 2C BD 7A 61 8C 98 21 C8 56 7F 44 7A 10 45          ..,.za..!.V.Dz.E
+       E8 36 7D D5 11 9D F6 5F 2B 51 D5 3F 18 99 02 03          .6}...._+Q.?....
+       01 00 01 A3 82 07 F5 30 82 07 F1 30 1D 06 03 55          .......0...0...U
+       1D 0E 04 16 04 14 E2 E4 BE 75 0F 54 05 E6 67 66          .........u.T..gf
+       03 CF 12 3D C2 D7 06 10 2A 0B 30 0B 06 03 55 1D          ...=....*.0...U.
+       0F 04 04 03 02 04 B0 30 1F 06 03 55 1D 23 04 18          .......0...U.#..
+       30 16 80 14 91 9E 3B 44 6C 3D 57 9C 42 77 2A 34          0.....;Dl=W.Bw*4
+       D7 4F D1 CC 4A 97 2C DA 30 81 AC 06 03 55 1D 1F          .O..J.,.0....U..
+       04 81 A4 30 81 A1 30 81 9E A0 81 9B A0 81 98 86          ...0..0.........
+       4B 68 74 74 70 3A 2F 2F 6D 73 63 72 6C 2E 6D 69          Khttp://mscrl.mi
+       63 72 6F 73 6F 66 74 2E 63 6F 6D 2F 70 6B 69 2F          crosoft.com/pki/
+       6D 73 63 6F 72 70 2F 63 72 6C 2F 4D 69 63 72 6F          mscorp/crl/Micro
+       73 6F 66 74 25 32 30 49 54 25 32 30 54 4C 53 25          soft%20IT%20TLS%
+       32 30 43 41 25 32 30 32 2E 63 72 6C 86 49 68 74          20CA%202.crl.Iht
+       74 70 3A 2F 2F 63 72 6C 2E 6D 69 63 72 6F 73 6F          tp://crl.microso
+       66 74 2E 63 6F 6D 2F 70 6B 69 2F 6D 73 63 6F 72          ft.com/pki/mscor
+       70 2F 63 72 6C 2F 4D 69 63 72 6F 73 6F 66 74 25          p/crl/Microsoft%
+       32 30 49 54 25 32 30 54 4C 53 25 32 30 43 41 25          20IT%20TLS%20CA%
+       32 30 32 2E 63 72 6C 30 81 85 06 08 2B 06 01 05          202.crl0....+...
+       05 07 01 01 04 79 30 77 30 51 06 08 2B 06 01 05          .....y0w0Q..+...
+       05 07 30 02 86 45 68 74 74 70 3A 2F 2F 77 77 77          ..0..Ehttp://www
+       2E 6D 69 63 72 6F 73 6F 66 74 2E 63 6F 6D 2F 70          .microsoft.com/p
+       6B 69 2F 6D 73 63 6F 72 70 2F 4D 69 63 72 6F 73          ki/mscorp/Micros
+       6F 66 74 25 32 30 49 54 25 32 30 54 4C 53 25 32          oft%20IT%20TLS%2
+       30 43 41 25 32 30 32 2E 63 72 74 30 22 06 08 2B          0CA%202.crt0"..+
+       06 01 05 05 07 30 01 86 16 68 74 74 70 3A 2F 2F          .....0...http://
+       6F 63 73 70 2E 6D 73 6F 63 73 70 2E 63 6F 6D 30          ocsp.msocsp.com0
+       3E 06 09 2B 06 01 04 01 82 37 15 07 04 31 30 2F          >..+.....7...10/
+       06 27 2B 06 01 04 01 82 37 15 08 87 DA 86 75 83          .'+.....7.....u.
+       EE D9 01 82 C9 85 1B 81 B5 9E 61 85 F4 EB 60 81          ..........a...`.
+       5D 84 D2 DF 42 82 E7 93 7A 02 01 64 02 01 16 30          ]...B...z..d...0
+       1D 06 03 55 1D 25 04 16 30 14 06 08 2B 06 01 05          ...U.%..0...+...
+       05 07 03 02 06 08 2B 06 01 05 05 07 03 01 30 4D          ......+.......0M
+       06 03 55 1D 20 04 46 30 44 30 42 06 09 2B 06 01          ..U. .F0D0B..+..
+       04 01 82 37 2A 01 30 35 30 33 06 08 2B 06 01 05          ...7*.0503..+...
+       05 07 02 01 16 27 68 74 74 70 3A 2F 2F 77 77 77          .....'http://www
+       2E 6D 69 63 72 6F 73 6F 66 74 2E 63 6F 6D 2F 70          .microsoft.com/p
+       6B 69 2F 6D 73 63 6F 72 70 2F 63 70 73 30 27 06          ki/mscorp/cps0'.
+       09 2B 06 01 04 01 82 37 15 0A 04 1A 30 18 30 0A          .+.....7....0.0.
+       06 08 2B 06 01 05 05 07 03 02 30 0A 06 08 2B 06          ..+.......0...+.
+       01 05 05 07 03 01 30 82 05 92 06 03 55 1D 11 04          ......0.....U...
+       82 05 89 30 82 05 85 82 10 76 69 73 75 61 6C 73          ...0.....visuals
+       74 75 64 69 6F 2E 63 6F 6D 82 12 2A 2E 76 69 73          tudio.com..*.vis
+       75 61 6C 73 74 75 64 69 6F 2E 63 6F 6D 82 18 2A          ualstudio.com..*
+       2E 76 73 6D 70 73 2E 76 69 73 75 61 6C 73 74 75          .vsmps.visualstu
+       64 69 6F 2E 63 6F 6D 82 18 2A 2E 76 73 73 70 73          dio.com..*.vssps
+       2E 76 69 73 75 61 6C 73 74 75 64 69 6F 2E 63 6F          .visualstudio.co
+       6D 82 17 2A 2E 76 73 73 68 2E 76 69 73 75 61 6C          m..*.vssh.visual
+       73 74 75 64 69 6F 2E 63 6F 6D 82 18 2A 2E 76 73          studio.com..*.vs
+       63 6C 74 2E 76 69 73 75 61 6C 73 74 75 64 69 6F          clt.visualstudio
+       2E 63 6F 6D 82 17 2A 2E 76 73 72 6D 2E 76 69 73          .com..*.vsrm.vis
+       75 61 6C 73 74 75 64 69 6F 2E 63 6F                      sualstudio.c
+
+*****************************************************************************
+Frame number: 7
+Frame size: 54
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 40
+		|- Identification: 51550
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9BA7
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 251
+		|- TCP checksum: 0x3F76
+ 		|- Urgent pointer: 0
+
+Payload
+
+*****************************************************************************
+Frame number: 8
+Frame size: 1506
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 1492
+		|- Identification: 27404
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xBB2D
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1025
+		|- TCP checksum: 0xA8F3
+ 		|- Urgent pointer: 0
+
+Payload
+       6D 82 18 2A 2E 76 73 64 74 6C 2E 76 69 73 75 61          m..*.vsdtl.visua
+       6C 73 74 75 64 69 6F 2E 63 6F 6D 82 1B 2A 2E 63          lstudio.com..*.c
+       6F 64 65 6C 65 6E 73 2E 76 69 73 75 61 6C 73 74          odelens.visualst
+       75 64 69 6F 2E 63 6F 6D 82 1C 2A 2E 61 6C 6D 73          udio.com..*.alms
+       65 61 72 63 68 2E 76 69 73 75 61 6C 73 74 75 64          earch.visualstud
+       69 6F 2E 63 6F 6D 82 1A 2A 2E 63 73 73 74 6F 6F          io.com..*.csstoo
+       6C 2E 76 69 73 75 61 6C 73 74 75 64 69 6F 2E 63          l.visualstudio.c
+       6F 6D 82 18 2A 2E 76 73 6F 73 73 2E 76 69 73 75          om..*.vsoss.visu
+       61 6C 73 74 75 64 69 6F 2E 63 6F 6D 82 1C 2A 2E          alstudio.com..*.
+       61 72 74 69 66 61 63 74 73 2E 76 69 73 75 61 6C          artifacts.visual
+       73 74 75 64 69 6F 2E 63 6F 6D 82 19 2A 2E 76 73          studio.com..*.vs
+       62 6C 6F 62 2E 76 69 73 75 61 6C 73 74 75 64 69          blob.visualstudi
+       6F 2E 63 6F 6D 82 14 2A 2E 76 73 62 6C 6F 62 2E          o.com..*.vsblob.
+       76 73 61 73 73 65 74 73 2E 69 6F 82 1B 2A 2E 76          vsassets.io..*.v
+       73 73 70 73 65 78 74 2E 76 69 73 75 61 6C 73 74          sspsext.visualst
+       75 64 69 6F 2E 63 6F 6D 82 1C 2A 2E 64 72 73 65          udio.com..*.drse
+       72 76 69 63 65 2E 76 69 73 75 61 6C 73 74 75 64          rvice.visualstud
+       69 6F 2E 63 6F 6D 82 19 2A 2E 6D 61 6E 61 67 65          io.com..*.manage
+       2E 76 69 73 75 61 6C 73 74 75 64 69 6F 2E 63 6F          .visualstudio.co
+       6D 82 1A 2A 2E 65 78 74 6D 67 6D 74 2E 76 69 73          m..*.extmgmt.vis
+       75 61 6C 73 74 75 64 69 6F 2E 63 6F 6D 82 1E 2A          ualstudio.com..*
+       2E 6D 61 72 6B 65 74 70 6C 61 63 65 2E 76 69 73          .marketplace.vis
+       75 61 6C 73 74 75 64 69 6F 2E 63 6F 6D 82 15 2A          ualstudio.com..*
+       2E 67 61 6C 6C 65 72 79 2E 76 73 61 73 73 65 74          .gallery.vsasset
+       73 2E 69 6F 82 17 2A 2E 70 6B 67 73 2E 76 69 73          s.io..*.pkgs.vis
+       75 61 6C 73 74 75 64 69 6F 2E 63 6F 6D 82 17 2A          ualstudio.com..*
+       2E 7A 65 75 73 2E 76 69 73 75 61 6C 73 74 75 64          .zeus.visualstud
+       69 6F 2E 63 6F 6D 82 19 2A 2E 65 6E 74 72 65 71          io.com..*.entreq
+       2E 76 69 73 75 61 6C 73 74 75 64 69 6F 2E 63 6F          .visualstudio.co
+       6D 82 18 2A 2E 66 65 65 64 73 2E 76 69 73 75 61          m..*.feeds.visua
+       6C 73 74 75 64 69 6F 2E 63 6F 6D 82 1C 2A 2E 76          lstudio.com..*.v
+       73 74 73 75 73 65 72 73 2E 76 69 73 75 61 6C 73          stsusers.visuals
+       74 75 64 69 6F 2E 63 6F 6D 82 1C 2A 2E 70 6F 72          tudio.com..*.por
+       74 61 6C 65 78 74 2E 76 69 73 75 61 6C 73 74 75          talext.visualstu
+       64 69 6F 2E 63 6F 6D 82 1C 2A 2E 61 6E 61 6C 79          dio.com..*.analy
+       74 69 63 73 2E 76 69 73 75 61 6C 73 74 75 64 69          tics.visualstudi
+       6F 2E 63 6F 6D 82 15 2A 2E 6D 79 2E 76 69 73 75          o.com..*.my.visu
+       61 6C 73 74 75 64 69 6F 2E 63 6F 6D 82 1D 2A 2E          alstudio.com..*.
+       64 61 74 61 69 6D 70 6F 72 74 2E 76 69 73 75 61          dataimport.visua
+       6C 73 74 75 64 69 6F 2E 63 6F 6D 82 1A 2A 2E 76          lstudio.com..*.v
+       73 74 73 6D 6D 73 2E 76 69 73 75 61 6C 73 74 75          stsmms.visualstu
+       64 69 6F 2E 63 6F 6D 82 18 2A 2E 76 73 61 65 78          dio.com..*.vsaex
+       2E 76 69 73 75 61 6C 73 74 75 64 69 6F 2E 63 6F          .visualstudio.co
+       6D 82 1E 2A 2E 76 73 74 73 6B 61 6C 79 70 73 6F          m..*.vstskalypso
+       2E 76 69 73 75 61 6C 73 74 75 64 69 6F 2E 63 6F          .visualstudio.co
+       6D 82 1D 2A 2E 76 73 63 6F 6D 6D 65 72 63 65 2E          m..*.vscommerce.
+       76 69 73 75 61 6C 73 74 75 64 69 6F 2E 63 6F 6D          visualstudio.com
+       82 1D 2A 2E 67 6F 76 65 72 6E 61 6E 63 65 2E 76          ..*.governance.v
+       69 73 75 61 6C 73 74 75 64 69 6F 2E 63 6F 6D 82          isualstudio.com.
+       1C 2A 2E 6F 72 67 73 65 61 72 63 68 2E 76 69 73          .*.orgsearch.vis
+       75 61 6C 73 74 75 64 69 6F 2E 63 6F 6D 82 1E 2A          ualstudio.com..*
+       2E 76 73 6F 72 67 73 65 61 72 63 68 2E 76 69 73          .vsorgsearch.vis
+       75 61 6C 73 74 75 64 69 6F 2E 63 6F 6D 82 19 2A          ualstudio.com..*
+       2E 70 6F 72 74 61 6C 2E 76 69 73 75 61 6C 73 74          .portal.visualst
+       75 64 69 6F 2E 63 6F 6D 82 18 2A 2E 6B 65 72 6F          udio.com..*.kero
+       73 2E 76 69 73 75 61 6C 73 74 75 64 69 6F 2E 63          s.visualstudio.c
+       6F 6D 82 18 2A 2E 74 6F 6B 65 6E 2E 76 69 73 75          om..*.token.visu
+       61 6C 73 74 75 64 69 6F 2E 63 6F 6D 82 18 2A 2E          alstudio.com..*.
+       76 73 74 6D 72 2E 76 69 73 75 61 6C 73 74 75 64          vstmr.visualstud
+       69 6F 2E 63 6F 6D 82 19 2A 2E 73 61 6D 70 6C 65          io.com..*.sample
+       2E 76 69 73 75 61 6C 73 74 75 64 69 6F 2E 63 6F          .visualstudio.co
+       6D 82 0D 2A 2E 76 73 61 6C 6C 69 6E 2E 6E 65 74          m..*.vsallin.net
+       82 17 2A 2E 61 6C 6D 73 65 61 72 63 68 2E 76 73          ..*.almsearch.vs
+       61 6C 6C 69 6E 2E 6E 65 74 82 16 2A 2E 63 6F 64          allin.net..*.cod
+       65 6C 65 6E 73 2E 76 73 61 6C 6C 69 6E 2E 6E 65          elens.vsallin.ne
+       74 82 15 2A 2E 63 73 73 74 6F 6F 6C 2E 76 73 61          t..*.csstool.vsa
+       6C 6C 69 6E 2E 6E 65 74 82 13 2A 2E 76 73 61 65          llin.net..*.vsae
+       78 2E 76 73 61 6C 6C 69 6E 2E 6E 65 74 82 18 2A          x.vsallin.net..*
+       2E 76 73 63 6F 6D 6D 65 72 63 65 2E 76 73 61 6C          .vscommerce.vsal
+       6C 69 6E 2E 6E 65 74 82 13 2A 2E 76 73 6D 70 73          lin.net..*.vsmps
+       2E 76 73 61 6C 6C 69 6E 2E 6E 65 74 82 12 2A 2E          .vsallin.net..*.
+       76 73 72 6D 2E 76 73 61 6C 6C 69 6E 2E 6E 65 74          vsrm.vsallin.net
+       82 13 2A 2E 76 73 73 70 73 2E 76 73 61 6C 6C 69          ..*.vssps.vsalli
+       6E 2E 6E 65 74 82 16 2A 2E 76 73 73 70 73 65 78          n.net..*.vsspsex
+       74 2E 76 73 61 6C 6C 69 6E 2E 6E 65 74 82 17 2A          t.vsallin.net..*
+       2E 76 73 74 73 75 73 65 72 73 2E 76 73 61 6C 6C          .vstsusers.vsall
+       69 6E 2E 6E 65 74 82 18 2A 2E 67 61 6C 6C 65 72          in.net..*.galler
+       79 70 70 65 2E 76 73 61 73 73 65 74 73 2E 69 6F          yppe.vsassets.io
+       30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 03          0...*.H.........
+       82 02 01 00 18 B4 D4 A9 D9 96 0D BB C2 B3 B3 29          ...............)
+       C0 57 D7 0F 3E CA BE D1 6E F3 BB 17 8F DB 04 1B          .W..>...n.......
+       DB E7 27 DF AC 5B BE B2 49 6C 0F 47 2E BC E9 DD          ..'..[..Il.G....
+       99 C1 E6 EC C7 88 DE FF FB E9 6B 69 FC 54 BC CD          ..........ki.T..
+       10 26 80 A9 24 DE ED 2D 5F 60 2F 8C 65 92 85 5E          .&..$..-_`/.e..^
+       56 20 3A 66 3C B0 BA 55 F0 1D DC ED 8D 8A 23 52          V :f<..U......#R
+       05 2E 1B 68 75 95 AC A4 2C 4E F8 DA C2 6F 75 11          ...hu...,N...ou.
+       A2 00 35 9F 76 3E 50 3A A9 4C B2 2B 97 EA 84 88          ..5.v>P:.L.+....
+       5B 91 0B 5D 30 7A 55 E3 11 7B BB B3 E5 F8 E1 20          [..]0zU..{..... 
+       EE CE 2A 0D 95 90 0B A3 BE C4 F3 80 EF A3 E7 0F          ..*.............
+       B4 2A 5E 50 A8 4A 83 09 DA 79 31 04 70 07 5D 0C          .*^P.J...y1.p.].
+       32 C6 4B 0F B7 B8 2E C5 F2 7F 60 A8                      .2.K.......`
+
+*****************************************************************************
+Frame number: 9
+Frame size: 54
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 40
+		|- Identification: 51551
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9BA6
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 274
+		|- TCP checksum: 0x39B3
+ 		|- Urgent pointer: 0
+
+Payload
+
+*****************************************************************************
+Frame number: 10
+Frame size: 1506
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 1492
+		|- Identification: 27405
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xBB2C
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1025
+		|- TCP checksum: 0xA02E
+ 		|- Urgent pointer: 0
+
+Payload
+       8A 13 47 11 C9 58 0F 75 5B 29 B7 51 76 EE FC 46          ..G..X.u[).Qv..F
+       35 0D 31 1D 76 45 D7 36 97 0B 9C C0 82 49 85 09          5.1.vE.6.....I..
+       70 67 0F 29 B8 3E 8A 1B 9E C8 65 2A 9C F0 40 54          pg.).>....e*..@T
+       D8 FF 35 80 A2 95 37 4F F7 9F 56 71 4E B7 70 F1          ..5...7O..VqN.p.
+       DF DD B7 02 6D FA 0C 75 3E 0F B9 15 A4 59 3F 77          ....m..u>....Y?w
+       F3 B5 80 D5 DA C0 05 A5 F6 D7 91 8A 60 45 62 48          ............`EbH
+       10 73 5C 7F 5B 7B E7 54 B0 1B 01 88 EE 98 90 6E          .s\.[{.T.......n
+       C5 D1 A5 40 FC 6F 9D 17 A6 6E B6 67 CB A3 7F BB          ...@.o...n.g....
+       01 92 E4 36 2B 8D F4 7C D8 08 C1 B3 D4 CB 87 52          ...6+..|.......R
+       47 4D 5A F4 22 87 0A 4F 5A DA 23 18 C2 F7 F7 8E          GMZ."..OZ.#.....
+       AE B9 24 0B 8E CF 5E 19 42 8C 89 3D E9 93 E5 25          ..$...^.B..=...%
+       1E 62 59 E9 B2 97 EE 4C DB 04 72 F3 4E 30 86 E1          .bY....L..r.N0..
+       A9 DF FE 70 C1 73 1B 8F 4A C4 73 EF F9 FB 3A D7          ...p.s..J.s...:.
+       1B 4A CC 33 DB 5C 46 BD FE 2A 43 90 4A 71 FE 40          .J.3.\F..*C.Jq.@
+       20 CB 59 D4 C8 5A AC E3 E5 49 58 16 C9 1D FC A9           .Y..Z...IX.....
+       FA A5 B7 CD C3 1A CF 96 BC A5 95 B3 20 82 38 28          ............ .8(
+       E8 30 D3 FC CF 6A 01 ED 1B 21 EA D5 96 CD C1 7A          .0...j...!.....z
+       49 BE EC 7C 0E 0A 31 31 39 57 11 27 C0 3F A4 CC          I..|..119W.'.?..
+       81 AF E8 58 2E E6 51 8A A4 21 0A 8D 7F B5 58 B0          ...X..Q..!....X.
+       82 F3 DD CB 63 F3 6D EE 40 B1 18 D4 04 D0 E3 8C          ....c.m.@.......
+       A9 D8 2B A3 DD 51 A4 F9 00 05 B8 30 82 05 B4 30          ..+..Q.....0...0
+       82 04 9C A0 03 02 01 02 02 10 0F 2C 10 C9 5B 06          ...........,..[.
+       C0 93 7F B8 D4 49 F8 3E 85 69 30 0D 06 09 2A 86          .....I.>.i0...*.
+       48 86 F7 0D 01 01 0B 05 00 30 5A 31 0B 30 09 06          H........0Z1.0..
+       03 55 04 06 13 02 49 45 31 12 30 10 06 03 55 04          .U....IE1.0...U.
+       0A 13 09 42 61 6C 74 69 6D 6F 72 65 31 13 30 11          ...Baltimore1.0.
+       06 03 55 04 0B 13 0A 43 79 62 65 72 54 72 75 73          ..U....CyberTrus
+       74 31 22 30 20 06 03 55 04 03 13 19 42 61 6C 74          t1"0 ..U....Balt
+       69 6D 6F 72 65 20 43 79 62 65 72 54 72 75 73 74          imore CyberTrust
+       20 52 6F 6F 74 30 1E 17 0D 31 36 30 35 32 30 31           Root0...1605201
+       32 35 31 35 37 5A 17 0D 32 34 30 35 32 30 31 32          25157Z..24052012
+       35 31 35 37 5A 30 81 8B 31 0B 30 09 06 03 55 04          5157Z0..1.0...U.
+       06 13 02 55 53 31 13 30 11 06 03 55 04 08 13 0A          ...US1.0...U....
+       57 61 73 68 69 6E 67 74 6F 6E 31 10 30 0E 06 03          Washington1.0...
+       55 04 07 13 07 52 65 64 6D 6F 6E 64 31 1E 30 1C          U....Redmond1.0.
+       06 03 55 04 0A 13 15 4D 69 63 72 6F 73 6F 66 74          ..U....Microsoft
+       20 43 6F 72 70 6F 72 61 74 69 6F 6E 31 15 30 13           Corporation1.0.
+       06 03 55 04 0B 13 0C 4D 69 63 72 6F 73 6F 66 74          ..U....Microsoft
+       20 49 54 31 1E 30 1C 06 03 55 04 03 13 15 4D 69           IT1.0...U....Mi
+       63 72 6F 73 6F 66 74 20 49 54 20 54 4C 53 20 43          crosoft IT TLS C
+       41 20 32 30 82 02 22 30 0D 06 09 2A 86 48 86 F7          A 20.."0...*.H..
+       0D 01 01 01 05 00 03 82 02 0F 00 30 82 02 0A 02          ...........0....
+       82 02 01 00 9E AA 15 C1 1B A1 63 5F E6 51 18 C5          ..........c_.Q..
+       16 BB 11 DC 0B 4D 9B 91 0A BA 40 49 2B DC D6 06          .....M....@I+...
+       0B C5 77 59 2C 34 42 45 0B 4E A8 C9 16 F0 28 F3          ..wY,4BE.N....(.
+       1F 96 95 BF 1E D3 9F CC 87 81 96 21 A4 E7 B3 30          ...........!...0
+       66 AD 7C 6E 00 12 AF BD 2C 3D 45 AE A0 3F 75 EC          f.|n....,=E..?u.
+       75 20 05 FC 41 62 81 7C CC 0E D9 21 EE 73 00 73          u ..Ab.|...!.s.s
+       83 15 BA 09 2F B1 60 FD AA 60 6D 0B 3F 1A 26 59          ..../.`..`m.?.&Y
+       34 28 B4 42 44 14 5B 3C 34 9D 35 26 55 23 50 D2          4(.BD.[<4.5&U#P.
+       6C FA A4 2B BD E4 3B F5 58 CB 0B 1B 23 C6 7D D3          l..+..;.X...#.}.
+       7D CC 3D D0 FD 01 03 C8 9E BD E5 08 23 44 8C 58          }.=.........#D.X
+       03 50 D4 13 EE 78 B6 2D A4 EA BD 32 70 A1 50 62          .P...x.-...2p.Pb
+       4C 96 C1 9D B9 1C 3D 61 DA 46 2D DE 8B D6 F3 9B          L.....=a.F-.....
+       C5 EB 2E ED 8D 3A 94 11 C2 DB 80 A5 02 07 CD 7F          .....:..........
+       F7 9E 61 74 B2 EC 6C 57 7A 7F DA 36 3E 45 3C C6          ..at..lWz..6>E<.
+       E3 9C DD 4F 9B 51 E7 6F BF A4 9B B6 F1 A3 04 46          ...O.Q.o.......F
+       5E 17 21 FC FC 26 90 87 39 6C 28 C1 F4 F8 E3 CE          ^.!..&..9l(.....
+       16 FF DB 32 A7 0B 6A B3 F0 D5 5D 6C 39 5D 5B 97          ...2..j...]l9][.
+       85 BD BE 2D B6 EF C9 E2 6E 5C C8 6C 41 ED EE 73          ...-....n\.lA..s
+       7C F3 CA 78 28 D2 30 A8 27 17 68 68 5B B5 2E 2D          |..x(.0.'.hh[..-
+       8E 7D CD 28 8E AF D5 DD 97 47 2C 48 BC 22 43 8E          .}.(.....G,H."C.
+       0A 19 D3 DC C5 DF D3 F2 A1 EF 76 B1 24 62 91 98          ..........v.$b..
+       7B C6 7B 38 B5 01 10 F0 10 AC E2 8E 4D 05 2C 7C          {.{8........M.,|
+       53 11 2C 83 2C CD 4A C9 16 18 45 AA B0 88 ED FB          S.,.,.J...E.....
+       BF 80 D6 C9 03 0D 9B FA 93 6A 3C 54 21 CD 6D 32          .........j<T!.m2
+       C5 29 2E DD EF 6C 0C 23 81 2B A7 35 6C 04 88 9C          .)...l.#.+.5l...
+       C5 A1 B6 7B 3B 8C 04 1B AA 4E 1C 48 88 9F 86 F7          ...{;....N.H....
+       37 E8 3F D9 71 8A 6F FD AE F2 40 C5 B8 77 9E E8          7.?.q.o...@..w..
+       C0 D5 52 5F 90 E6 13 24 8A 23 10 06 02 C5 1D D0          ..R_...$.#......
+       8C 4A 06 75 AA 49 98 19 5E F7 B0 1F A8 40 67 C2          .J.u.I..^....@g.
+       82 6C BB 6C 1A BF C8 7D BF EA 68 0C BE 21 E9 D4          .l.l...}..h..!..
+       73 45 4C 58 D4 31 F2 A5 C1 65 5C 6A 07 BB F4 44          sELX.1...e\j...D
+       42 01 4B AB 62 0D DF 4F C0 85 02 CD F7 43 E3 F5          B.K.b..O.....C..
+       34 F6 45 01 02 03 01 00 01 A3 82 01 42 30 82 01          4.E.........B0..
+       3E 30 1D 06 03 55 1D 0E 04 16 04 14 91 9E 3B 44          >0...U........;D
+       6C 3D 57 9C 42 77 2A 34 D7 4F D1 CC 4A 97 2C DA          l=W.Bw*4.O..J.,.
+       30 1F 06 03 55 1D 23 04 18 30 16 80 14 E5 9D 59          0...U.#..0.....Y
+       30 82 47 58 CC AC FA 08 54 36 86 7B 3A B5 04 4D          0.GX....T6.{:..M
+       F0 30 12 06 03 55 1D 13 01 01 FF 04 08 30 06 01          .0...U.......0..
+       01 FF 02 01 00 30 0E 06 03 55 1D 0F 01 01 FF 04          .....0...U......
+       04 03 02 01 86 30 27 06 03 55 1D 25 04 20 30 1E          .....0'..U.%. 0.
+       06 08 2B 06 01 05 05 07 03 01 06 08 2B 06 01 05          ..+.........+...
+       05 07 03 02 06 08 2B 06 01 05 05 07 03 09 30 34          ......+.......04
+       06 08 2B 06 01 05 05 07 01 01 04 28 30 26 30 24          ..+........(0&0$
+       06 08 2B 06 01 05 05 07 30 01 86 18 68 74 74 70          ..+.....0...http
+       3A 2F 2F 6F 63 73 70 2E 64 69 67 69 63 65 72 74          ://ocsp.digicert
+       2E 63 6F 6D 30 3A 06 03 55 1D 1F 04 33 30 31 30          .com0:..U...3010
+       2F A0 2D A0 2B 86 29 68 74 74 70 3A 2F 2F 63 72          /.-.+.)http://cr
+       6C 33 2E 64 69 67 69 63 65 72 74 2E 63 6F 6D 2F          l3.digicert.com/
+       4F 6D 6E 69 72 6F 6F 74 32 30 32 35                      /Omniroot202
+
+*****************************************************************************
+Frame number: 11
+Frame size: 54
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 40
+		|- Identification: 51552
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9BA5
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 297
+		|- TCP checksum: 0x33F0
+ 		|- Urgent pointer: 0
+
+Payload
+
+*****************************************************************************
+Frame number: 12
+Frame size: 1506
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 1492
+		|- Identification: 27406
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xBB2B
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1025
+		|- TCP checksum: 0x4DDA
+ 		|- Urgent pointer: 0
+
+Payload
+       2E 63 72 6C 30 3D 06 03 55 1D 20 04 36 30 34 30          .crl0=..U. .6040
+       32 06 04 55 1D 20 00 30 2A 30 28 06 08 2B 06 01          2..U. .0*0(..+..
+       05 05 07 02 01 16 1C 68 74 74 70 73 3A 2F 2F 77          .......https://w
+       77 77 2E 64 69 67 69 63 65 72 74 2E 63 6F 6D 2F          ww.digicert.com/
+       43 50 53 30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B          CPS0...*.H......
+       05 00 03 82 01 01 00 6C 7F EA 6A 6F CF 6B 5B C1          .......l..jo.k[.
+       34 AC FF DC 0E E0 7D 8B 13 17 E0 2F 4E 59 0E C4          4.....}..../NY..
+       03 B9 F4 05 29 65 47 AE 19 9A E8 54 F6 64 D5 D8          ....)eG....T.d..
+       BD 06 E0 71 22 19 7B CE 9A DD 79 8B DF 70 27 48          ...q".{...y..p'H
+       68 DB F7 6F 33 19 B5 65 EB 9F 90 07 CC B8 47 39          h..o3..e......G9
+       7D 0F 51 13 91 0D 80 D4 76 50 2B 85 07 60 6D 6D          }.Q.....vP+..`mm
+       59 9A 29 40 16 C6 C7 0D E0 6A 57 4B 80 09 BF EF          Y.)@.....jWK....
+       C7 4B 45 57 B3 94 AE D7 D2 74 0C 0F 01 83 E9 68          .KEW.....t.....h
+       F1 E9 02 97 87 6A D8 6D 66 D5 6B 02 BC 50 48 A0          .....j.mf.k..PH.
+       B2 23 77 89 DE 08 B9 46 A3 14 F6 8C 0E 37 96 3D          .#w....F.....7.=
+       89 A5 0F D2 32 42 E4 2F 2F 43 5E 3F C9 1D DB 2A          ....2B.//C^?...*
+       24 34 79 A2 07 22 8F 85 48 5F C5 7E 6D 50 F4 34          $4y.."..H_.~mP.4
+       2C 3B 91 06 BA 52 5A BD 66 8D 23 0C 4A B5 6A DE          ,;...RZ.f.#.J.j.
+       33 49 E1 F8 99 5D 8F 30 CD CB C0 85 C1 03 6C 68          3I...].0......lh
+       E6 C7 5A D5 C9 D4 58 9A 37 3E AE 2E 32 07 0B 7B          ..Z...X.7>..2..{
+       4B 7E 7C 2B AD DF C3 4C 91 39 7C 17 46 AB 7E 5B          K~|+...L.9|.F.~[
+       29 6A A5 15 55 4A 2F 16 00 07 2B 01 00 07 27 30          )j..UJ/...+...'0
+       82 07 23 0A 01 00 A0 82 07 1C 30 82 07 18 06 09          ..#.......0.....
+       2B 06 01 05 05 07 30 01 01 04 82 07 09 30 82 07          +.....0......0..
+       05 30 81 C7 A2 16 04 14 1C 6C 1E 3B 17 ED F8 DA          .0.......l.;....
+       B1 5C EB CD BC 2D 31 58 68 86 24 97 18 0F 32 30          .\...-1Xh.$...20
+       31 38 30 34 30 39 31 33 30 34 32 30 5A 30 81 9B          180409130420Z0..
+       30 81 98 30 4C 30 09 06 05 2B 0E 03 02 1A 05 00          0..0L0...+......
+       04 14 88 1A 4A 74 FE FF 46 52 F3 54 BB 51 0F D3          ....Jt..FR.T.Q..
+       A4 EE EF E0 A1 C8 04 14 91 9E 3B 44 6C 3D 57 9C          ..........;Dl=W.
+       42 77 2A 34 D7 4F D1 CC 4A 97 2C DA 02 13 20 00          Bw*4.O..J.,... .
+       01 4F 4B 06 D6 D3 CD CA 6A C6 ED 00 00 00 01 4F          .OK.....j......O
+       4B 80 00 18 0F 32 30 31 38 30 34 30 39 31 33 30          K....20180409130
+       34 32 30 5A A0 11 18 0F 32 30 31 38 30 34 31 33          420Z....20180413
+       31 33 30 34 32 30 5A A1 22 30 20 30 1E 06 09 2B          130420Z."0 0...+
+       06 01 05 05 07 30 01 06 04 11 18 0F 32 30 31 37          .....0......2017
+       30 34 30 39 31 33 30 34 32 30 5A 30 0D 06 09 2A          0409130420Z0...*
+       86 48 86 F7 0D 01 01 0B 05 00 03 82 01 01 00 3C          .H.............<
+       6B 4C 4C 20 ED 60 EA 4D 53 0A A8 D0 C6 1E 1D E9          kLL .`.MS.......
+       E9 9B 6B 9E 7B E0 3C D1 13 D9 99 EB BE 8F 14 3D          ..k.{.<........=
+       CB AD B4 7B 3E 24 33 5B 06 5A 3D F9 33 30 75 25          ...{>$3[.Z=.30u%
+       18 C2 A4 02 AC 30 D5 6C 8C 12 44 34 9F 1E 6F CD          .....0.l..D4..o.
+       B0 DD D6 3C D8 88 F3 F8 1A D3 60 19 2C 45 C0 65          ...<......`.,E.e
+       8A 14 5C 2D BD 31 73 B1 4B 39 71 9C 3B 96 CE 85          ..\-.1s.K9q.;...
+       A1 F3 5E 6C 57 61 3B CD F0 3E F8 8C DF 10 75 0D          ..^lWa;..>....u.
+       D5 F4 12 6E 0A 78 7C 3F BF 00 DB C7 E2 F4 12 BD          ...n.x|?........
+       8D C6 DE F2 B9 2A 25 5E 98 ED 05 26 D3 70 E5 D6          .....*%^...&.p..
+       F2 F5 8E 0E DD 85 33 57 88 71 E9 F1 6E 21 58 67          ......3W.q..n!Xg
+       E6 BE 60 A1 C3 E5 5E 3B BF EB C1 6C 62 C5 46 69          ..`...^;...lb.Fi
+       BB 42 53 19 F4 02 9D E1 86 6F 58 9A 7F 5C 86 7A          .BS......oX..\.z
+       ED 15 E5 6A BF BA B4 9D ED 01 47 6E B0 E6 38 5D          ...j......Gn..8]
+       B8 27 6F 48 77 0E DB 81 4A 43 B3 D7 57 2A 45 83          .'oHw...JC..W*E.
+       0E 4C 1C C1 E4 77 BF 44 8D 31 10 A1 70 70 C2 DB          .L...w.D.1..pp..
+       A6 70 31 6B FD 2F 8B 19 D2 A4 CB D4 FD 80 A7 A0          .p1k./..........
+       82 05 23 30 82 05 1F 30 82 05 1B 30 82 03 03 A0          ..#0...0...0....
+       03 02 01 02 02 13 20 00 01 C4 1F 41 5A 1B F6 FA          ...... ....AZ...
+       D8 0B 78 00 00 00 01 C4 1F 30 0D 06 09 2A 86 48          ..x......0...*.H
+       86 F7 0D 01 01 0B 05 00 30 81 8B 31 0B 30 09 06          ........0..1.0..
+       03 55 04 06 13 02 55 53 31 13 30 11 06 03 55 04          .U....US1.0...U.
+       08 13 0A 57 61 73 68 69 6E 67 74 6F 6E 31 10 30          ...Washington1.0
+       0E 06 03 55 04 07 13 07 52 65 64 6D 6F 6E 64 31          ...U....Redmond1
+       1E 30 1C 06 03 55 04 0A 13 15 4D 69 63 72 6F 73          .0...U....Micros
+       6F 66 74 20 43 6F 72 70 6F 72 61 74 69 6F 6E 31          oft Corporation1
+       15 30 13 06 03 55 04 0B 13 0C 4D 69 63 72 6F 73          .0...U....Micros
+       6F 66 74 20 49 54 31 1E 30 1C 06 03 55 04 03 13          oft IT1.0...U...
+       15 4D 69 63 72 6F 73 6F 66 74 20 49 54 20 54 4C          .Microsoft IT TL
+       53 20 43 41 20 32 30 1E 17 0D 31 38 30 31 30 35          S CA 20...180105
+       32 33 33 34 33 39 5A 17 0D 31 39 30 31 30 35 32          233439Z..1901052
+       33 33 34 33 39 5A 30 2B 31 29 30 27 06 03 55 04          33439Z0+1)0'..U.
+       03 13 20 4D 69 63 72 6F 73 6F 66 74 20 49 54 20          .. Microsoft IT 
+       54 4C 53 20 43 41 20 32 20 4B 65 79 42 69 6E 64          TLS CA 2 KeyBind
+       69 6E 67 30 82 01 22 30 0D 06 09 2A 86 48 86 F7          ing0.."0...*.H..
+       0D 01 01 01 05 00 03 82 01 0F 00 30 82 01 0A 02          ...........0....
+       82 01 01 00 D9 E7 46 70 66 BE 50 73 75 36 A8 FF          ......Fpf.Psu6..
+       4A 2D 54 4D 0E C9 D7 03 E7 FF 61 A9 D2 76 FD 7D          J-TM......a..v.}
+       C7 4E 9A 4D 78 D9 9D 6C 83 B2 E0 C8 24 60 80 C0          .N.Mx..l....$`..
+       A6 66 86 D9 A0 1B AB 5F 4C 5E 3E B5 7A 1B DA F3          .f....._L^>.z...
+       C8 FD 11 08 54 CD E8 15 08 AD BA 43 09 6F 54 4D          ....T......C.oTM
+       A2 5A 41 5B 27 10 A0 7C 12 94 81 BF 24 38 CF 09          .ZA['..|....$8..
+       79 D4 44 9B AB 37 58 A9 EA 3D 6F F8 9C BF 54 34          y.D..7X..=o...T4
+       8D 1A BE 99 69 58 A6 8D EB 66 2C CA AD 46 FE 3D          ....iX...f,..F.=
+       77 11 46 FD DC D8 14 B5 C5 D9 A3 DD D3 62 BA CF          w.F..........b..
+       72 24 26 CA 06 3E 0D 5F BC 95 6C 30 E8 64 83 E6          r$&..>._..l0.d..
+       09 62 1D 8E B4 C5 6A 0A 22 04 79 97 1D 81 A2 E0          .b....j.".y.....
+       03 15 A1 36 B9 24 E6 9A 4B 09 05 E9 A9 F9 01 1F          ...6.$..K.......
+       5F A7 8E 56 80 E0 7C B8 02 A1 44 0F C1 AA 23 CA          _..V..|...D...#.
+       94 D5 2F A3 30 76 F6 54 FB 1A 21 99 55 93 4F 0B          ../.0v.T..!.U.O.
+       57 0B A4 6E 3E F4 F7 5B 10 9A 89 77 77 96 4E 23          W..n>..[...ww.N#
+       56 A4 68 3D 26 89 A8 08 EC 5F 6E DC A8 FE D3 0F          V.h=&...._n.....
+       32 68 90 07 02 03 01 00 01 A3 81 D6 30 81 D3 30          2h..........0..0
+       1D 06 03 55 1D 0E 04 16 04 14 1C 6C                      0...U.......
+
+*****************************************************************************
+Frame number: 13
+Frame size: 54
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 40
+		|- Identification: 51553
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9BA4
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 320
+		|- TCP checksum: 0x2E2D
+ 		|- Urgent pointer: 0
+
+Payload
+
+*****************************************************************************
+Frame number: 14
+Frame size: 1088
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 1074
+		|- Identification: 27407
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xBCCC
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1025
+		|- TCP checksum: 0x2098
+ 		|- Urgent pointer: 0
+
+Payload
+       1E 3B 17 ED F8 DA B1 5C EB CD BC 2D 31 58 68 86          .;.....\...-1Xh.
+       24 97 30 1F 06 03 55 1D 23 04 18 30 16 80 14 91          $.0...U.#..0....
+       9E 3B 44 6C 3D 57 9C 42 77 2A 34 D7 4F D1 CC 4A          .;Dl=W.Bw*4.O..J
+       97 2C DA 30 0E 06 03 55 1D 0F 01 01 FF 04 04 03          .,.0...U........
+       02 07 80 30 3E 06 09 2B 06 01 04 01 82 37 15 07          ...0>..+.....7..
+       04 31 30 2F 06 27 2B 06 01 04 01 82 37 15 08 87          .10/.'+.....7...
+       DA 86 75 83 EE D9 01 82 C9 85 1B 81 B5 9E 61 85          ..u...........a.
+       F4 EB 60 81 5D 81 CC 9B 47 81 C8 E9 16 02 01 64          ..`.]...G......d
+       02 01 07 30 13 06 03 55 1D 25 04 0C 30 0A 06 08          ...0...U.%..0...
+       2B 06 01 05 05 07 03 09 30 1B 06 09 2B 06 01 04          +.......0...+...
+       01 82 37 15 0A 04 0E 30 0C 30 0A 06 08 2B 06 01          ..7....0.0...+..
+       05 05 07 03 09 30 0F 06 09 2B 06 01 05 05 07 30          .....0...+.....0
+       01 05 04 02 05 00 30 0D 06 09 2A 86 48 86 F7 0D          ......0...*.H...
+       01 01 0B 05 00 03 82 02 01 00 5E 74 3E 30 57 32          ..........^t>0W2
+       73 88 AF FA 29 EB 49 D1 8F 51 9A B8 66 A3 15 BE          s...).I..Q..f...
+       75 AC 93 56 CD D5 1C 0B 36 6C 1D 2E F8 02 66 19          u..V....6l....f.
+       58 F6 A7 DF B7 6E BF 6E A1 3A 0A BC 5A 8D F5 A2          X....n.n.:..Z...
+       5A 9E 84 B7 F9 DC A3 3C 44 12 18 E0 2C 70 8C AA          Z......<D...,p..
+       14 AA 3F 5E 99 BB 3D C3 38 2A AD AB 7F E2 BE 07          ..?^..=.8*......
+       75 4D F8 5D 21 50 06 50 53 8E 09 39 37 97 01 E2          uM.]!P.PS..97...
+       50 39 4C 7A 40 51 1F 2B AA CD BA 45 D8 43 C2 F5          P9Lz@Q.+...E.C..
+       4F AF C9 34 FE 68 5D 89 17 7E 16 3A 5B 0F 16 3C          O..4.h]..~.:[..<
+       66 B0 4C 0B AE 47 FC 14 7B 7C 2B 21 9F 02 6D 2C          f.L..G..{|+!..m,
+       5C C2 80 3D B1 EA 4C 9F 46 4E 1C 05 0C 09 2E A2          \..=..L.FN......
+       0E 43 79 FE C8 3A 64 65 1B C5 06 D3 33 86 A2 F1          .Cy..:de....3...
+       85 3F 04 A0 85 13 0D 0C 02 D4 5F 03 EC FF 1F 94          .?........_.....
+       7C 3D B0 ED 99 A9 9A 97 CF C1 14 9B 6E C3 8C 38          |=..........n..8
+       BD 06 48 57 4C 93 AD 2D 51 EC 6A AB BD C4 F3 C5          ..HWL..-Q.j.....
+       83 F0 B5 0C 98 3A 89 08 8F 37 17 FD 40 B2 78 82          .....:...7..@.x.
+       7E 3C 4C CE 93 1A 1B 19 F1 DE 42 FA 48 2E 86 FB          ~<L.......B.H...
+       64 6C C0 D6 68 BD 9D 82 E9 F0 AD 41 0E CF 66 A2          dl..h......A..f.
+       B3 ED 89 69 E8 8C 01 AB 54 5A 4F 31 08 E7 3D 48          ...i....TZO1..=H
+       47 13 82 CD 25 31 31 60 D8 47 9B 06 87 41 02 ED          G...%11`.G...A..
+       29 22 73 70 11 06 5D 4C 8E FC 08 E4 EB 44 A1 3A          )"sp..]L.....D.:
+       5C 1A E9 BB C6 31 FD D2 32 35 C8 C8 3C 99 A6 F1          \....1..25..<...
+       AF 0A D4 3C 02 66 0F 3E 0A DC FF 85 A9 7F B3 0D          ...<.f.>........
+       D7 58 4B EA 0D D5 DB 04 EB E7 A2 A2 12 01 B0 3E          .XK............>
+       67 78 62 98 A0 72 3C BD 00 ED 76 15 E7 0F 52 AB          gxb..r<...v...R.
+       DA 46 D3 C3 E7 19 9F BC 0E 57 FB 02 F0 06 D8 5D          .F.......W.....]
+       9E 9F E1 F1 52 5B C8 5F 2D 76 43 04 4C 8A B8 19          ....R[._-vC.L...
+       35 BA 01 26 6D 8A 4A 05 B9 FC 2C 64 A9 09 BE 32          5..&m.J...,d...2
+       94 E8 DA 26 6C B4 C9 C8 17 67 6C 89 DF F5 88 3C          ...&l....gl....<
+       19 4C C5 8E A7 90 C3 D9 C4 19 91 01 57 8B F3 D4          .L..........W...
+       02 5F B9 37 59 06 6F 2D 8C 1C 93 A9 7D 7A CF D7          ._.7Y.o-....}z..
+       E9 68 CD 17 FF 06 3D 10 DB AA D1 06 55 5E 32 88          .h....=.....U^2.
+       91 A5 82 27 18 98 C5 29 FC DB 0C 00 01 28 03 00          ...'...).....(..
+       1D 20 DF 63 DE 29 8F AB C1 99 A8 DF BE CB E0 EA          . .c.)..........
+       A1 2E E4 58 71 BD CA 17 F5 CF 6E 29 9E 03 3B E6          ...Xq.....n)..;.
+       DB 73 04 01 01 00 44 FA 67 42 26 11 FD 0A 85 0C          .s....D.gB&.....
+       1D EC 32 03 E5 78 1E 5F 2F E8 2D 2A 0A 72 C6 F7          ..2..x._/.-*.r..
+       1A AA EB EA DB EC CF 0A AD 9D FE E6 9D FA C3 71          ...............q
+       AA 7F A9 C8 AB 3F 3B C3 E4 68 87 FC DC A8 2A A6          .....?;..h....*.
+       69 0B 40 84 C9 25 0E 72 A6 76 8B 8C 2B 04 80 B3          i.@..%.r.v..+...
+       C8 D7 9F B6 86 97 C0 4C C7 83 43 7A AD FD FA 08          .......L..Cz....
+       E1 02 64 16 54 39 67 A1 F8 01 52 F0 89 3F C3 A0          ..d.T9g...R..?..
+       A1 94 7A E2 01 CE 31 1A EA AD 48 2D 8E F5 09 1D          ..z...1...H-....
+       1C 13 9F D5 0B 51 BA 4E CE 46 33 0A C6 04 38 0D          .....Q.N.F3...8.
+       4A 4C 20 5B 2E B9 36 19 2F 40 D1 E4 DE 52 54 3F          JL [..6./@...RT?
+       6A 25 0F 8D CE 5A 14 36 A2 18 0D A6 2F E1 0B 0F          j%...Z.6..../...
+       E9 A1 10 A1 4F 1F C9 AF 19 5F AD 28 B0 BC 18 9E          ....O...._.(....
+       59 D5 77 54 D1 D7 D3 AD 5A 2C 17 4E FE 58 43 61          Y.wT....Z,.N.XCa
+       D8 9B 24 1A B1 19 6E 0D 8F A0 EA 0D 47 8E D2 74          ..$...n.....G..t
+       C6 DC C8 AB 59 E8 70 9A 01 0A 92 FA 22 FC 04 5D          ....Y.p....."..]
+       B1 A3 56 A2 04 AF 58 5C F1 73 0C 51 A4 DD 2F 1E          ..V...X\.s.Q../.
+       CB 26 3A B3 DA DB 0E 00 00 00                            ..&:......
+
+*****************************************************************************
+Frame number: 15
+Frame size: 54
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 40
+		|- Identification: 51554
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9BA3
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 343
+		|- TCP checksum: 0x2A0C
+ 		|- Urgent pointer: 0
+
+Payload
+
+*****************************************************************************
+Frame number: 16
+Frame size: 147
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 133
+		|- Identification: 51555
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9B45
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 343
+		|- TCP checksum: 0x050A
+ 		|- Urgent pointer: 0
+
+Payload
+       16 03 03 00 25 10 00 00 21 20 A9 FD 0F 78 09 BC          ....%...! ...x..
+       4D FD 4A FB 81 A5 F5 29 C3 B6 78 0B 2C 3E B9 CD          M.J....)..x.,>..
+       44 8D 1D 74 D3 85 E7 1C 31 4C 14 03 03 00 01 01          D..t....1L......
+       16 03 03 00 28 00 00 00 00 00 00 00 00 79 58 D6          ....(........yX.
+       C0 A8 06 7A A4 01 A1 30 57 43 AA 20 D7 DB 2E AE          ...z...0WC. ....
+       1F F9 4D A4 AB 05 6F AD 09 AC 73 1A B7                   ...M...o...s.
+
+*****************************************************************************
+Frame number: 17
+Frame size: 107
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 93
+		|- Identification: 51556
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9B6C
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 343
+		|- TCP checksum: 0xEBD8
+ 		|- Urgent pointer: 0
+
+Payload
+       17 03 03 00 30 00 00 00 00 00 00 00 01 44 F3 3B          ....0........D.;
+       1C 14 76 32 3D 80 70 3C 8E 02 CD 2B 32 FA 39 FA          ..v2=.p<...+2.9.
+       3C 03 19 D3 89 30 DA 59 CE 77 A2 94 E2 AA 47 9B          <....0.Y.w....G.
+       FE 43 6A F8 39                                           ..Cj.
+
+*****************************************************************************
+Frame number: 18
+Frame size: 110
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 96
+		|- Identification: 51557
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9B68
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 343
+		|- TCP checksum: 0x9CF4
+ 		|- Urgent pointer: 0
+
+Payload
+       17 03 03 00 33 00 00 00 00 00 00 00 02 11 CC 76          ....3..........v
+       58 25 E1 D5 C4 8D D2 E9 A0 90 F6 9B E1 72 55 32          X%...........rU2
+       F0 2D 1F 8F 90 88 DF E1 07 2B 52 CA EB CF CE 63          .-.......+R....c
+       96 BC 43 25 15 E4 4D 5F                                  c..C%..M
+
+*****************************************************************************
+Frame number: 19
+Frame size: 96
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 82
+		|- Identification: 51558
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9B75
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 343
+		|- TCP checksum: 0x8AF0
+ 		|- Urgent pointer: 0
+
+Payload
+       17 03 03 00 25 00 00 00 00 00 00 00 03 D8 AC ED          ....%...........
+       A3 0D 5D 67 83 F7 25 D7 13 D7 9C EB 7D AD 2B AD          ..]g..%.....}.+.
+       C3 2B 3A 34 D2 F4 6C 9B 6D 05                            ..+:4..l.m
+
+*****************************************************************************
+Frame number: 20
+Frame size: 482
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 468
+		|- Identification: 51559
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x99F2
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 343
+		|- TCP checksum: 0x104A
+ 		|- Urgent pointer: 0
+
+Payload
+       17 03 03 01 A7 00 00 00 00 00 00 00 04 AF 28 03          ..............(.
+       A7 97 62 26 BA 80 19 11 D9 0E 85 DE B0 49 A8 96          ..b&.........I..
+       26 56 C4 C0 C6 41 03 C8 63 3C 24 5E 8B 39 AC DC          &V...A..c<$^.9..
+       01 B7 F6 21 C9 61 D8 E9 12 1F D6 F0 23 B4 2A D6          ...!.a......#.*.
+       42 86 EA E8 52 C0 87 47 40 8D A0 75 9F 8D 9B 45          B...R..G@..u...E
+       B0 64 A3 6A 64 96 2F FB 04 41 2D EB 09 44 1E 8C          .d.jd./..A-..D..
+       99 37 23 A9 00 55 5F 23 DD D8 7B A6 B5 9F 9A A5          .7#..U_#..{.....
+       38 45 83 F2 60 39 55 8B 3F 75 A6 B6 25 FA EA 86          8E..`9U.?u..%...
+       A6 13 D3 9F 68 D6 01 A0 9A 09 A3 34 CF 2B CA 70          ....h......4.+.p
+       57 BA A3 D4 42 F8 11 2F 9A D9 06 B0 26 34 CC 25          W...B../....&4.%
+       7E EE 02 B1 1A 60 E0 0B B4 FB FF 14 89 42 6C 40          ~....`.......Bl@
+       E8 47 0A B8 4E 42 88 F4 1F C2 6D 64 30 2C A5 5E          .G..NB....md0,.^
+       7C 4E 24 E3 C3 59 D3 50 EA 2B BE EF 8F 9D 0E 31          |N$..Y.P.+.....1
+       B9 4C 96 5C BC F6 38 D3 85 81 25 60 D1 48 81 E6          .L.\..8...%`.H..
+       3A 39 DA DF EB 57 27 49 6F 47 BA BD 57 0C 37 72          :9...W'IoG..W.7r
+       5B 40 8A DB E4 19 EF F1 86 79 EB 66 6A F5 66 65          [@.......y.fj.fe
+       84 3C D0 83 BF 1F 8E 14 B8 04 C0 E2 37 BE 7D 16          .<..........7.}.
+       B0 C1 CE C9 C4 61 3B 4E 6B 42 F6 06 D7 03 7B 3F          .....a;NkB....{?
+       D8 75 07 D5 AF 36 52 4A 53 06 CD 0B 8C 06 A6 A0          .u...6RJS.......
+       52 15 0D 4C 6E A1 E4 F6 A4 E9 99 61 26 7D E0 38          R..Ln......a&}.8
+       7B 23 5B C6 9E EF 0D 45 1E 20 CB A8 CF 9E 93 B8          {#[....E. ......
+       1D D5 B2 1C D1 BD 6D 07 2C 28 21 22 CA 7E 6D F2          ......m.,(!".~m.
+       11 6C 6B 7B A4 4E 87 80 CA 26 61 FD 6D FF F1 49          .lk{.N...&a.m..I
+       54 65 5D 60 E9 1F 4A 93 DA 72 00 16 26 8A A6 BE          Te]`..J..r..&...
+       7E F3 26 63 91 58 EB DD 38 0B 32 A4 99 6F E6 B8          ~.&c.X..8.2..o..
+       9E 12 1C 99 EE BC CC 5F BE 4D B4 98 A3 95 B0 50          ......._.M.....P
+       B6 D7 60 49 44 87 F1 EE 7E 33 BD 53                      P..`ID...~3.
+
+*****************************************************************************
+Frame number: 21
+Frame size: 611
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 597
+		|- Identification: 51560
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9970
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 343
+		|- TCP checksum: 0xBF79
+ 		|- Urgent pointer: 0
+
+Payload
+       17 03 03 02 28 00 00 00 00 00 00 00 05 90 04 A7          ....(...........
+       9E 84 6F 51 49 14 A8 78 07 15 FA 4D 2F 93 00 8F          ..oQI..x...M/...
+       1B 5D 1F 84 ED 24 D2 25 BC EF 3B D9 16 C5 FB 0A          .]...$.%..;.....
+       FD 6A 8F 52 83 88 EC 57 DA B9 1F AB E7 C8 79 D8          .j.R...W......y.
+       52 96 1C A2 26 C7 20 CE 5B EF 82 73 22 BF DD 61          R...&. .[..s"..a
+       82 17 66 3F D6 7A 70 93 E2 D7 9C E7 54 00 70 5F          ..f?.zp.....T.p_
+       AD E8 F0 42 1E 51 13 9B 6F 05 E7 25 0E 28 1E AF          ...B.Q..o..%.(..
+       03 FF 80 1C F7 97 F3 EA E9 B4 61 C1 BD 33 A4 6A          ..........a..3.j
+       F5 D4 EC 07 BF 65 8A A1 C7 96 29 D8 B4 13 D1 BA          .....e....).....
+       85 28 5E 54 65 06 BE 8E 4E 15 7A FF DB C8 1D 2B          .(^Te...N.z....+
+       02 FF D3 2F 2D A8 3A 3F A0 73 45 1D 1A 96 F4 D8          .../-.:?.sE.....
+       2A BF 6E A6 F3 F4 CB AB 0B 38 62 3E 4A 94 CE 90          *.n......8b>J...
+       11 FF C5 37 47 13 35 3D 3A 67 70 FA C1 A1 6C 5D          ...7G.5=:gp...l]
+       33 22 61 AD 7C 82 CF B7 48 EC AE 39 C2 85 64 CC          3"a.|...H..9..d.
+       D2 D1 08 45 F5 31 96 F2 46 1E 10 6F 7B 2E B4 17          ...E.1..F..o{...
+       9C 37 DA 5F 3A 3D 97 EA 13 23 6D 46 A3 DF C4 40          .7._:=...#mF...@
+       63 4E A3 FF 0D 42 3A EA 54 AD A1 64 08 0C 86 FB          cN...B:.T..d....
+       DD 02 93 66 47 BB BA 16 4B 00 B4 84 ED 42 67 5D          ...fG...K....Bg]
+       74 0D C7 93 C5 9D 85 5F 84 A5 AC 3E 16 62 56 68          t......_...>.bVh
+       12 81 75 AD AE 8B 6A 8A A5 96 2A 2A 26 76 61 EB          ..u...j...**&va.
+       1B 35 8E 7E 57 3C 46 4B AF 98 46 FE D4 42 DD 69          .5.~W<FK..F..B.i
+       FC E8 2F 71 15 61 F6 95 A8 1B B0 F1 DC D8 AC B4          ../q.a..........
+       D7 73 07 76 13 97 9B 5E F9 2D 86 79 83 83 E6 F8          .s.v...^.-.y....
+       98 66 DC D2 7F AB 51 E4 2D C8 47 37 3B 10 08 C8          .f....Q.-.G7;...
+       F7 C1 3C C1 8F 30 42 55 AE 11 94 2E 08 0A 6C 43          ..<..0BU......lC
+       48 7D 24 D1 EB E4 CA 9E 78 3E 59 83 BE F2 96 BC          H}$.....x>Y.....
+       AC B8 C8 1E 5D 65 C2 80 24 64 62 42 A0 A4 57 D9          ....]e..$dbB..W.
+       77 5C 93 F4 E6 05 D9 B6 EA 50 34 4A 6C C3 CF 6B          w\.......P4Jl..k
+       E2 09 7D 3B E0 CF 66 1A C9 A3 89 F8 36 CC 63 41          ..};..f.....6.cA
+       D4 8F 33 B2 85 FD E8 7E B1 61 11 4E 8F F2 E5 98          ..3....~.a.N....
+       7D A0 DD 85 D0 6C 3A 17 3A 59 F8 18 78 9C 87 20          }....l:.:Y..x.. 
+       8E AF 59 67 6D 04 6C 2D FE 19 44 B2 A7 1F E5 21          ..Ygm.l-..D....!
+       69 4F 93 1F F6 DA F1 54 AB 24 31 D2 2B 14 3C 39          iO.....T.$1.+.<9
+       2B 16 B2 E2 73 16 AA 04 DC 30 2B E3 B7 A1 3C D5          +...s....0+...<.
+       3F 71 CA 85 19 FF 73 84 8A C4 09 C4 15                   .?q....s.....
+
+*****************************************************************************
+Frame number: 22
+Frame size: 60
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 40
+		|- Identification: 27408
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0D5
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1025
+		|- TCP checksum: 0x2705
+ 		|- Urgent pointer: 0
+
+Payload
+       00 00 00 00 00 00                                        ......
+
+*****************************************************************************
+Frame number: 23
+Frame size: 105
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 91
+		|- Identification: 27409
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0A1
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1025
+		|- TCP checksum: 0xE631
+ 		|- Urgent pointer: 0
+
+Payload
+       14 03 03 00 01 01 16 03 03 00 28 00 00 00 00 00          ..........(.....
+       00 00 00 EC 77 BB 03 51 0F D9 23 88 71 21 5E 80          ....w..Q..#.q!^.
+       52 24 81 22 AB 1A 4D EB 99 6E 26 FF A2 E4 AA 8E          R$."..M..n&.....
+       03 67 8B                                                 ..g
+
+*****************************************************************************
+Frame number: 24
+Frame size: 123
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 109
+		|- Identification: 27410
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC08E
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1025
+		|- TCP checksum: 0x698F
+ 		|- Urgent pointer: 0
+
+Payload
+       17 03 03 00 40 00 00 00 00 00 00 00 01 36 57 60          ....@........6W`
+       91 C7 36 1F 39 65 3B 98 72 CB 2F 91 FE AA AF DF          ..6.9e;.r./.....
+       45 FF C1 9E 58 1C 3F 41 11 D9 85 9F 5B C0 89 0B          E...X.?A....[...
+       24 24 A9 C0 F9 B0 48 B2 A2 C4 A1 4F C2 B5 92 94          $$....H....O....
+       8B 5A EC 4E 40                                           ..Z.N
+
+*****************************************************************************
+Frame number: 25
+Frame size: 54
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 40
+		|- Identification: 51561
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9B9C
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 343
+		|- TCP checksum: 0x24C7
+ 		|- Urgent pointer: 0
+
+Payload
+
+*****************************************************************************
+Frame number: 26
+Frame size: 92
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 78
+		|- Identification: 51562
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9B75
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 343
+		|- TCP checksum: 0x79AF
+ 		|- Urgent pointer: 0
+
+Payload
+       17 03 03 00 21 00 00 00 00 00 00 00 06 1F B0 80          ....!...........
+       65 2C 74 54 D2 E9 9F 2D 6D A7 E8 C2 BA 8A 51 38          e,tT...-m.....Q8
+       44 11 C7 3B 00 34                                        8D..;.
+
+*****************************************************************************
+Frame number: 27
+Frame size: 60
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 40
+		|- Identification: 27412
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0D1
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1025
+		|- TCP checksum: 0x2658
+ 		|- Urgent pointer: 0
+
+Payload
+       00 00 00 00 00 00                                        ......
+
+*****************************************************************************
+Frame number: 28
+Frame size: 60
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 40
+		|- Identification: 27413
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0D0
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1024
+		|- TCP checksum: 0x2621
+ 		|- Urgent pointer: 0
+
+Payload
+       00 00 00 00 00 00                                        ......
+
+*****************************************************************************
+Frame number: 29
+Frame size: 92
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 78
+		|- Identification: 27414
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0A9
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1024
+		|- TCP checksum: 0x4E29
+ 		|- Urgent pointer: 0
+
+Payload
+       17 03 03 00 21 00 00 00 00 00 00 00 02 5A 87 CE          ....!........Z..
+       F3 E4 0D AF 44 5E 8F D3 50 C7 44 BA 58 7E 2A 89          ....D^..P.D.X~*.
+       0E D5 F6 04 1F 4B                                        ......
+
+*****************************************************************************
+Frame number: 30
+Frame size: 60
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 40
+		|- Identification: 27415
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0CE
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1023
+		|- TCP checksum: 0x2426
+ 		|- Urgent pointer: 0
+
+Payload
+       00 00 00 00 00 00                                        ......
+
+*****************************************************************************
+Frame number: 31
+Frame size: 60
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 40
+		|- Identification: 27416
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0CD
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1020
+		|- TCP checksum: 0x21FC
+ 		|- Urgent pointer: 0
+
+Payload
+       00 00 00 00 00 00                                        ......
+
+*****************************************************************************
+Frame number: 32
+Frame size: 96
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 82
+		|- Identification: 27417
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0A2
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1020
+		|- TCP checksum: 0xEBA6
+ 		|- Urgent pointer: 0
+
+Payload
+       17 03 03 00 25 00 00 00 00 00 00 00 03 D2 EE 2B          ....%..........+
+       69 2E 06 CF E4 F6 47 CE 39 3E 4D DD B4 5E 29 85          i.....G.9>M..^).
+       24 57 6E 15 60 79 74 A4 9B D5                            .$Wn.`yt..
+
+*****************************************************************************
+Frame number: 33
+Frame size: 54
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 40
+		|- Identification: 51563
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9B9A
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 343
+		|- TCP checksum: 0x2451
+ 		|- Urgent pointer: 0
+
+Payload
+
+*****************************************************************************
+Frame number: 34
+Frame size: 60
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 40
+		|- Identification: 27419
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0CA
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1026
+		|- TCP checksum: 0x21A6
+ 		|- Urgent pointer: 0
+
+Payload
+       00 00 00 00 00 00                                        ......
+
+*****************************************************************************
+Frame number: 35
+Frame size: 60
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 40
+		|- Identification: 27420
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0C9
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1026
+		|- TCP checksum: 0x21A6
+ 		|- Urgent pointer: 0
+
+Payload
+       00 00 00 00 00 00                                        ......
+
+*****************************************************************************
+Frame number: 36
+Frame size: 1053
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 1039
+		|- Identification: 27421
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xBCE1
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1026
+		|- TCP checksum: 0x3039
+ 		|- Urgent pointer: 0
+
+Payload
+       17 03 03 03 E2 00 00 00 00 00 00 00 04 3C AF 55          .............<.U
+       77 0F CB CC 0C F3 40 34 79 6D 81 28 B6 81 C4 B2          w.....@4ym.(....
+       E6 C1 C8 EA B5 9E 90 CC 88 B3 DB 34 40 71 0C C7          ...........4@q..
+       A2 F0 B0 C2 42 9A 1E C1 C1 12 AF 25 56 F1 3C AD          ....B......%V.<.
+       95 87 0D F5 77 F5 C7 F8 23 2D 7E 27 F3 7E D4 74          ....w...#-~'.~.t
+       28 5F 13 71 17 15 75 8B 83 52 6F DD 3C 8B 1F 94          (_.q..u..Ro.<...
+       A0 2A 7A 56 81 4A 3C E7 38 66 5F 2B 18 8F 8F A7          .*zV.J<.8f_+....
+       87 83 39 1D F3 C7 35 DC 2A 66 A6 BE A4 D5 23 73          ..9...5.*f....#s
+       69 58 6B CF 82 DC 2E 5E ED DC 18 B5 82 60 23 08          iXk....^.....`#.
+       32 F3 D1 58 3D 1C 07 4E F7 7F 7C F1 13 28 4E 50          2..X=..N..|..(NP
+       36 4A 2C 9A 10 F4 0D D3 52 32 88 4D 01 2C 47 51          6J,.....R2.M.,GQ
+       9E BE F8 E3 AB D3 A1 B8 6B 66 D9 33 7C 48 6A AF          ........kf.3|Hj.
+       B9 26 9E F6 7B 41 1B 3C 83 FA C9 1E D8 80 E2 DB          .&..{A.<........
+       DA C3 53 E4 ED AB 7C 6E B9 31 35 15 9C 45 DF 3C          ..S...|n.15..E.<
+       3D 5D 2E D7 C2 06 B6 89 C6 7C 9E 0A 6D 37 6C 9D          =].......|..m7l.
+       C7 3C 3F DE D5 07 5F 5A BC 28 D6 6F 4A AE 14 77          .<?..._Z.(.oJ..w
+       DB 86 9C 9D 67 4B 4A E8 78 7A 56 15 F7 6F A9 CC          ....gKJ.xzV..o..
+       FA D3 77 D6 EF 47 36 93 44 85 22 38 1B C8 6D 3A          ..w..G6.D."8..m:
+       84 20 3E 95 8E 73 D6 EE 61 C6 F6 D3 DD FE C3 73          . >..s..a......s
+       E7 49 EA 59 B6 EB FF 7F 05 7E 93 20 16 C8 EA AB          .I.Y.....~. ....
+       52 DC D5 06 1B 9C CA 59 A2 21 C1 47 11 AE 3E 71          R......Y.!.G..>q
+       6A ED 83 FF 60 33 37 43 EC 62 3E 10 3A F7 72 ED          j...`37C.b>.:.r.
+       7D FE 35 BF 3C F1 41 65 39 B8 C1 92 81 83 81 BE          }.5.<.Ae9.......
+       F7 60 AF D9 52 9F 66 95 3C F2 60 7D F6 A3 FE 0B          .`..R.f.<.`}....
+       53 89 91 DD C0 C7 B7 13 98 89 02 73 B3 37 A9 72          S..........s.7.r
+       DE 36 68 99 73 4E 1D BA B6 D4 BF 7D 91 43 19 8A          .6h.sN.....}.C..
+       AA 05 BA 28 81 39 4E 99 26 73 22 E5 9E 2C 30 DE          ...(.9N.&s"..,0.
+       BF 32 3E 30 C7 1C 8F 22 C2 F1 51 2A 28 FB 17 07          .2>0..."..Q*(...
+       6C 7B 9B B1 D7 39 D3 46 2A 47 4E 28 80 6B ED C0          l{...9.F*GN(.k..
+       89 6F BC 33 79 19 DD 26 D3 16 7B E0 A3 E1 30 C0          .o.3y..&..{...0.
+       59 4A 5A 7F E0 B4 8C 59 DD 71 65 7E 76 75 17 B0          YJZ....Y.qe~vu..
+       B7 64 24 82 E3 2E 84 D7 A3 8D DC F4 6B 5D ED D1          .d$.........k]..
+       B0 37 AC 1B C9 BB 63 BA 03 BB FA AF D0 BC 31 A3          .7....c.......1.
+       78 58 1E C2 9A 23 26 B9 3B 82 AB 5E F0 2C 2E 37          xX...#&.;..^.,.7
+       C3 54 B1 36 FB 8A A4 83 4A 6D 19 ED AE 0A 35 89          .T.6....Jm....5.
+       F2 B0 CF C2 61 7B 37 85 0C 6A F6 FA D7 8D 0E 1C          ....a{7..j......
+       7B 5E 86 87 EE D5 29 50 15 9A 40 C6 F0 28 53 A7          {^....)P..@..(S.
+       67 6B C2 AA 5C FB C2 68 49 03 B5 34 70 EE E3 A3          gk..\..hI..4p...
+       9A AC BE 83 58 5F 85 91 80 14 0D 68 FE 9D D6 14          ....X_.....h....
+       25 A4 12 3C 18 7C 1A 63 42 D7 8D 6A A8 6C 61 FC          %..<.|.cB..j.la.
+       6E 86 74 05 DA 91 26 F6 C8 C2 2A 2B 21 E8 55 47          n.t...&...*+!.UG
+       50 61 F2 65 FE FE 85 FC 18 7D 4C 8F 77 57 FC 63          Pa.e.....}L.wW.c
+       C5 C8 01 BD FA 44 DE 95 F3 A0 16 44 C5 1D 0F 12          .....D.....D....
+       00 A9 EA B9 2F 98 FC D5 46 BD 2A 31 BF FB 09 38          ..../...F.*1...8
+       E0 E5 C8 F2 31 09 7A F1 DE 6B 8B 21 51 8C D2 0B          ....1.z..k.!Q...
+       67 F9 39 37 D2 63 23 83 B9 D2 67 F6 B4 50 C9 9B          g.97.c#...g..P..
+       00 6B 8B AD E2 72 89 6D F0 5A 84 28 9C 10 78 13          .k...r.m.Z.(..x.
+       D6 AE 08 ED 9F FD 0F 7B 88 4A 17 08 93 8D 2D B5          .......{.J....-.
+       3E BD 9C F4 88 DB 26 2B 95 95 1A B5 10 C2 82 C9          >.....&+........
+       22 F6 5A 7D FE E1 C0 CD 64 5D 3A 3F 37 71 A9 72          ".Z}....d]:?7q.r
+       6B 7D 89 B0 68 61 BA AC 59 7E 5E 35 39 C5 9C 00          k}..ha..Y~^59...
+       DF 46 40 AE EB 07 BB EA 9F 9A BE 7C BC E1 05 A5          .F@........|....
+       D5 12 A5 29 AE 83 93 B7 A7 71 23 9E 7F EA 13 29          ...).....q#....)
+       FA 39 81 F2 17 05 4A 36 2A 15 0F 04 5C 51 26 35          .9....J6*...\Q&5
+       17 FC 6A 47 BA C2 74 BD D5 00 9E 80 3A BB 81 E5          ..jG..t.....:...
+       C1 FF 22 67 00 98 E1 42 DA 86 12 C0 FF 62 36 CB          .."g...B.....b6.
+       3B 77 F8 CF AA FC 06 4B F2 FC 1D EC 27 17 C4 F9          ;w.....K....'...
+       36 33 12 F9 76 AD D2 6B 98 B3 82 37 F3 9B 4D 38          63..v..k...7..M8
+       C3 DF 54 FF D9 68 E1 11 F9 90 71 05 59 9A F6 AF          ..T..h....q.Y...
+       71 3B 76 8E E9 20 13 25 38 2D 3C 09 73 DC 79 E8          q;v.. .%8-<.s.y.
+       B3 AB 66 E6 26 22 33 CE 06 0A E9 A4 7F 44 0E BE          ..f.&"3......D..
+       BD ED A9 02 97 10 CA 96 91 79 06 04 AB 20 C3 01          .........y... ..
+       B8 BB FD 89 A3 1C DB                                     .......
+
+*****************************************************************************
+Frame number: 37
+Frame size: 92
+Ethernet header
+		|- Destination address: 74:E6:E2:36:9E:02
+		|- Source address: A0:65:18:AB:48:C2
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 32
+		|- Total length: 78
+		|- Identification: 27422
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 121
+		|- Protocol: TCP (6)
+		|- Header checksum: 0xC0A1
+		|- Source: 13.107.6.175
+		|- Destination: 192.168.1.8
+
+Transmission Control Protocol
+		|- Source port number: 443
+		|- Destination port number: 57652
+ 		|- Sequence number: 41587
+ 		|- Acknowledgment number: 13555
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 1
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 1026
+		|- TCP checksum: 0x8F47
+ 		|- Urgent pointer: 0
+
+Payload
+       17 03 03 00 21 00 00 00 00 00 00 00 05 7E 5C F6          ....!........~\.
+       AC 4F DC 9C C2 F7 71 31 E0 C6 09 E7 12 A7 EA E1          .O....q1........
+       F5 2C 72 58 E3 FF                                        ..,rX.
+
+*****************************************************************************
+Frame number: 38
+Frame size: 54
+Ethernet header
+		|- Destination address: A0:65:18:AB:48:C2
+		|- Source address: 74:E6:E2:36:9E:02
+		|- Type: 0800 (IPv4)
+
+Internet Protocol Version 4
+		|- Version: 4
+		|- Header length: 20 (bytes)
+		|- Type of service: 0
+		|- Total length: 40
+		|- Identification: 51564
+		|- Flags:
+			+ Reserved bit: 0
+			+ Don't fragment: 1
+			+ More fragments: 0
+		|- Fragment offset: 0
+		|- Time to live: 64
+		|- Protocol: TCP (6)
+		|- Header checksum: 0x9B99
+		|- Source: 192.168.1.8
+		|- Destination: 13.107.6.175
+
+Transmission Control Protocol
+		|- Source port number: 57652
+		|- Destination port number: 443
+ 		|- Sequence number: 13555
+ 		|- Acknowledgment number: 41587
+		|- Header length: 20 (bytes)
+		|- Flags:
+			+ URG: 0
+ 			+ ACK: 1
+			+ PSH: 0
+			+ RST: 0
+ 		 	+ SYN: 0
+			+ FIN: 0
+		|- Window size: 365
+		|- TCP checksum: 0x202E
+ 		|- Urgent pointer: 0
+
+Payload
+
+*****************************************************************************
