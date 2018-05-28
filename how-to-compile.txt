@@ -1,0 +1,4 @@
+gcc simpleCapture.cpp -o simpleCapture -lstdc++
+
+# expression examples:
+    - to capture packet from ip 113.171.23.11: ipsrc == 113.171.23.11 || ipdst == 113.171.23.11

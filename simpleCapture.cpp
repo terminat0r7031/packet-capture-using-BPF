@@ -35,7 +35,11 @@ void printUsage()
 	cout<<"		-e			expression"<<endl;
 	cout<<endl;
 	cout<<"Expression syntax:  field comparison-operator value [logical-operator]"<<endl;
-	cout<<"    Fields: ver | hdrlen | tos | ttlen | ttl | proto | src | dst"<<endl;
+	cout<<"    Fields: "<<endl;
+	cout<<"      IPv4 Packet headers: 	ver | iphdrlen | tos | ttlen | ttl | proto | ipsrc | ipdst"<<endl;
+	cout<<"      TCP headers:			sport | dport | seqno | ackno | tcphdrlen"<<endl;
+	cout<<"                             urgflag | ackflag | pshflag | rstflag | synflag | finflag | windowsiz | urgpnt"<<endl;
+	cout<<"      UDP headers:			sport | dport | udplen "<<endl;
 	cout<<"    Comparison operators: \"==\" | \"!=\" | \">\" | \">=\" | \"<\" | \"<=\""<<endl;
 	cout<<"    Logical operators: \"||\" | \"&&\""<<endl<<endl;
 }
