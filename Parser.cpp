@@ -115,7 +115,7 @@ void Parser::genCode(struct sock_filter *bpfCode, struct sock_fprog *bpfProg){
 				expr.push(token);
 			}
 			else{
-				cout<<"Wrong syntax: "<<token<< " is not a \"field\" in IP header!"<<endl;
+				cout<<"Wrong syntax: "<<token<< " is not a \"field\" in IP, or TCP, or UDP header!"<<endl;
 				exit(-1);
 			}
 		}

@@ -143,63 +143,32 @@ int main(int argc, char *argv[])
 	// Allocate memory for buf
 	unsigned char *buf;								// buffer for store data
 	buf = (unsigned char *)malloc(BUFSIZE);
-
-	fd_set rfds;
-	struct timeval tv;
-	int retval;
+	
 	int dataSize;
 
-	FD_ZERO(&rfds);
-	FD_SET(rSock, &rfds);
 
 	if(string(tp) == "0"){
 		cout<<"Packet capture is starting..."<<endl;
 		ProcessPacket psPkt(op);
-			while(1){
-			// Wait up to 20 seconds
-			tv.tv_sec = 20;
-
-			retval = select(rSock + 1, &rfds, NULL, NULL, &tv);
-			// Don't rely on the value of tv now
-
-			if(retval == -1){
-				cerr<<"Error occurred, couldn't call select(): "<<strerror(errno)<<endl;
-				exit(-1);
-			}		
-			else if(retval == 1){
-				dataSize = recvfrom(rSock, buf, BUFSIZE, 0, NULL, NULL); // for receive packet from all source
-				psPkt.parsingFrame(buf, dataSize);
+		while(1){
+			dataSize = recvfrom(rSock, buf, BUFSIZE, 0, NULL, NULL);
+			if(dataSize < 0) {
+				perror("revcfrom() error: ");
+				return 1;
 			}
-			else{
-				cout<<"No data within 20 seconds"<<endl;
-				close(rSock);
-				exit(0);
-			}
+			psPkt.parsingFrame(buf, dataSize);
 		}
 	}
 	else if(string(tp) == "1"){
 		cout<<"Packet capture is starting..."<<endl;
 		PcapWriter pcapWriter(op);
 		while(1){
-			// Wait up to 20 seconds
-			tv.tv_sec = 20;
-
-			retval = select(rSock + 1, &rfds, NULL, NULL, &tv);
-			// Don't rely on the value of tv now
-
-			if(retval == -1){
-				cerr<<"Error occurred, couldn't call select(): "<<strerror(errno)<<endl;
-				exit(-1);
-			}		
-			else if(retval == 1){
-				dataSize = recvfrom(rSock, buf, BUFSIZE, MSG_DONTWAIT, NULL, NULL); // for receive packet from all source
-				pcapWriter.writeToFile(buf, dataSize);
+			dataSize = recvfrom(rSock, buf, BUFSIZE, 0, NULL, NULL);
+			if(dataSize > 0) {
+				perror("revcfrom() error: ");
+				return 1;
 			}
-			else{
-				cout<<"No data within 20 seconds"<<endl;
-				close(rSock);
-				exit(0);
-			}
+			pcapWriter.writeToFile(buf, dataSize);
 		}
 	}
 }

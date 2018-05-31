@@ -31,8 +31,8 @@ int RawSocket::create(char *ifName){
 		exit(-1);
 	}
 
-	// change the socket into non-blocking socket
-	fcntl(rawSock, F_SETFL, O_NONBLOCK);
+	// // change the socket into non-blocking socket
+	// fcntl(rawSock, F_SETFL, O_NONBLOCK);
 
 	// find interface index
 	unsigned int ifIndex;
